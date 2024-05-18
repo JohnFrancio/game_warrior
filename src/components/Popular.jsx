@@ -5,7 +5,7 @@ function Popular() {
   return (
     <div className="bg-gray-900 text-white py-20">
       <div className="md:mx-20 sm:mx-10 mx-10">
-        <span className="uppercase font-bold bg-orange-500 px-5 py-2 shadow-md">PopularGame</span>
+        <span className="uppercase font-bold bg-orange-500 px-5 py-2 shadow-md">PopularGame</span><br />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
           {popular.map((game, index) => (
             <div key={index} className='bg-black bg-opacity-50 py-[5px]'>

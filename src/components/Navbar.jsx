@@ -3,7 +3,7 @@ import { navLink } from '../constants'
 
 function Navbar() {
   return (
-    <div className={`bg-black text-white border-b-yellow-400 border-b-2`}>
+    <div className={`bg-black text-white border-b-yellow-400 border-b-2 overflow-hidden`}>
       <nav className="mx-10 md:mx-20 sm:mx-10 flex justify-between items-center font-bold">
         <div>
           <h1 className="cursor-pointer font-bold text-2xl">Game <span className="text-yellow-400">Warrior</span></h1>
