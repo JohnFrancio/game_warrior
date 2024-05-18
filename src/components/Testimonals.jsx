@@ -37,7 +37,7 @@ function Testimonals() {
             <div className="grid grid-cols-1 gap-3">
               {userComments.map((comment, index) => (
                 <div key={index} className=''>
-                  <div className="flex border-b-2 border-gray-500 flex-row gap-6 mx-8 items-center justify-center">
+                  <div className="flex border-b-[0.5px] border-gray-500 flex-row gap-6 mx-8 items-center justify-center">
                     <div>
                       <AvatarIcon className="border rounded-full py-1 fill-white" size={65}/>
                     </div>
