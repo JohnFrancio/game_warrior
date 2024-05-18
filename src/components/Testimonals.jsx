@@ -6,7 +6,7 @@ import AvatarIcon from "./AvatarIcon"
 function Testimonals() {
   return (
     <div className="bg-gray-900 text-white py-20">
-      <div className="lg:mx-60 md:mx-20 sm:mx-10 mx-10">
+      <div className="md:mx-20 sm:mx-10 mx-10">
         <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5'>
           <div className='flex flex-col'>
             <h1 className="cursor-default font-bold text-3xl mb-5">Game <span className="text-yellow-400">Warrior</span></h1>

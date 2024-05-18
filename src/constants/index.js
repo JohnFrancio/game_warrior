@@ -63,29 +63,29 @@ export const news = [
 export const topGame = [
   {
     type: "New",
-    name: "Good game word of warcraft",
-    description: "Lorem ipsum blablablablablablablablabla",
+    name: "Good game World Of Warcraft",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     download: "3 Downloads",
     img: "./assets/wow.jpg",
   },
   {
     type: "Exclusif",
     name: "Good game from Overwatch",
-    description: "Lorem ipsum blablablablablablablablabla",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     download: "3 Downloads",
     img: "./assets/overwatch.jpg",
   },
   {
     type: "New",
     name: "Good Battleground Game PUBG",
-    description: "Lorem ipsum blablablablablablablablabla",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     download: "8 Downloads",
     img: "./assets/herobg.jpg",
   },
   {
     type: "Epic",
     name: "Good racing game from Forza",
-    description: "Lorem ipsum blablablablablablablablabla",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     download: "3 Downloads",
     img: "./assets/forza.jpg",
   },
@@ -94,7 +94,7 @@ export const topGame = [
 export const recentGame = [
   {
     type: "New",
-    name: "Good game word of Warframe",
+    name: "Good game World Of Warcraft",
     description: "Lorem ipsum blablablablablablablablabla",
     download: "3 Downloads",
     img: warframe,

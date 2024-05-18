@@ -7,10 +7,10 @@ function RecentGame() {
   return (
     <div className='mt-24 overflow-hidden'>
       <div className="relative bg-slate-200 w-full min-h-[85svh] z-[0] py-10">
-        <div className="absolute top-[-78%] left-[-32%] z-[-1]">
+        <div className="absolute top-[-70%] left-[-40%] z-[-1]">
           <img src={assasin} alt="assasin" className="w-3/4"/>
         </div>
-        <div className="absolute top-[-75%] right-[-56%] z-[-1]">
+        <div className="absolute top-[-75%] right-[-70%] z-[-1]">
           <img src={killzone} alt="killzone" className="w-3/4"/>
         </div>  
         <div className="flex justify-center pt-10">
@@ -19,7 +19,7 @@ function RecentGame() {
         <div className="flex justify-center mt-3 mb-12">
           <h1 className="font-bold text-4xl">Recent Games</h1>
         </div>
-        <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 z-10 lg:mx-60 md:mx-20 sm:mx-10 mx-10">
+        <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 z-10 md:mx-20 sm:mx-10 mx-10">
           {recentGame.map((game, index) => (
             <div key={index} className="relative flex flex-col bg-white border shadow-sm">
               <img className="w-full h-48 object-cover" src={game.img} alt={game.name} />

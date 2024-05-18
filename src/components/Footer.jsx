@@ -4,7 +4,7 @@ import { navLink } from '../constants'
 function Footer() {
   return (
     <div className='bg-black bg-opacity-80 text-white'>
-      <div className="lg:mx-60 md:mx-20 sm:mx-10 mx-10 flex justify-between">
+      <div className="md:mx-20 sm:mx-10 mx-10 flex flex-col md:flex-row justify-between">
         <div>
           <h1 className="cursor-pointer text-lg p-5">Copyright all right reserved | all belong to <span className="text-blue-700">John Francio</span></h1>
         </div>
