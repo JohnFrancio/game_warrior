@@ -11,7 +11,7 @@ function Testimonals() {
           <div className='flex flex-col'>
             <h1 className="cursor-default font-bold text-3xl mb-5">Game <span className="text-yellow-400">Warrior</span></h1>
             <p className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, obcaecati.</p>
-            <img className='w-full h-full' src={darksoul} alt="darksoul" />
+            <img className='w-full h-full hidden md:flex' src={darksoul} alt="darksoul" />
           </div>
           <div className="bg-black bg-opacity-50 py-[6px] h-auto">
             <h1 className="font-bold my-5 mx-8 text-2xl">Latest Posts</h1>

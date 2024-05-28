@@ -5,7 +5,7 @@ import { kratos } from '../assets'
 function RecentReviews() {
   return (
     <div className='relative overflow-hidden'>
-      <img className="absolute right-[-49%] top-[-30%] w-full object-cover" src={kratos} alt="kratos" />
+      <img className="absolute right-[-49%] top-[-30%] w-full object-cover hidden md:flex" src={kratos} alt="kratos" />
       <div className="md:mx-20 sm:mx-10 mx-10">
         <div className="flex flex-col justify-center items-center py-24">
           <button className={`text-white font-bold bg-red-500 w-24 py-1 mb-3 shadow-md`}>New</button>

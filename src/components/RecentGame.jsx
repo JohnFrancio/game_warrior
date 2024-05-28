@@ -7,10 +7,10 @@ function RecentGame() {
   return (
     <div className='mt-24 overflow-hidden'>
       <div className="relative bg-slate-200 w-full min-h-[85svh] z-[0] py-10">
-        <div className="absolute top-[-70%] left-[-40%] z-[-1]">
+        <div className="absolute top-[-70%] left-[-40%] z-[-1] hidden xl:flex">
           <img src={assasin} alt="assasin" className="w-3/4"/>
         </div>
-        <div className="absolute top-[-75%] right-[-70%] z-[-1]">
+        <div className="absolute top-[-75%] right-[-70%] z-[-1] hidden xl:flex">
           <img src={killzone} alt="killzone" className="w-3/4"/>
         </div>  
         <div className="flex justify-center pt-10">
